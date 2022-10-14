@@ -134,7 +134,7 @@ type Individual {
   """
   End-User's preferred address. The value of the address member is a JSON [RFC4627] structure containing some or all of the members defined in Section 2.5.1.
   """
-  address: Address
+  address: [Address!]!
 
   """
   The collection of user's config and preference data for each app/widget they use
